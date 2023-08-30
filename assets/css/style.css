@@ -124,7 +124,7 @@ header .navbar ul li a:hover {
 /* navbar ends */
 
 /* hamburger icon starts*/
-#menu {
+#nav-menu {
   font-size: 3rem;
   cursor: pointer;
   color: rgb(24, 2, 63);
