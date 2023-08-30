@@ -98,16 +98,16 @@ header .logo i {
 header .logo:hover {
   color: #fc8c05;
 }
-header .navbar ul {
+header #nav-menu ul {
   list-style: none;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-header .navbar li {
+header #nav-menu li {
   margin-left: 2.5rem;
 }
-header .navbar ul li a {
+header #nav-menu ul li a {
   font-size: 1.57rem;
   color: #0e2431;
   font-weight: 600;
@@ -115,8 +115,8 @@ header .navbar ul li a {
   letter-spacing: 0.04rem;
   transition: 0.2s;
 }
-header .navbar ul li a.active,
-header .navbar ul li a:hover {
+header #nav-menu ul li a.active,
+header #nav-menu ul li a:hover {
   color: #011aff;
   border-bottom: 0.2rem solid #011aff;
   padding: 0.5rem 0;
@@ -124,7 +124,7 @@ header .navbar ul li a:hover {
 /* navbar ends */
 
 /* hamburger icon starts*/
-#nav-menu {
+#menu {
   font-size: 3rem;
   cursor: pointer;
   color: rgb(24, 2, 63);
