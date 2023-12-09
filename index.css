@@ -142,7 +142,7 @@ header.shadow {
     width: 40%;
     /* border: 1px solid rgb(0, 0, 0); */
     border-radius: 0.5rem;
-
+    margin-left: 40%;
     box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
 }
 
@@ -630,6 +630,12 @@ margin-top: 10px;
         width: 100%;
         margin: auto;
     }
+
+    .home-img1 img {
+        /* order: initial; */
+        margin: auto;
+    }
+    
 
     .about-container {
         grid-template-columns: 1fr;
