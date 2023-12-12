@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* For Mobile */
+@media (max-width: 991px) {
+    header {
+        padding: 18px 4%;
+    }
+
+    section {
+        padding: 40px 4%;
+    }
+    .about__info{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        }
+}
+
+@media (max-width: 881px) {
+    :root {
+        --big-font: 2.7rem;
+        --medium-font: 1.4rem;
+    }
+}
+
+@media (max-width: 768px) {
+    :root {
+        --big-font: 2.4rem;
+        --medium-font: 1.2rem;
+    }
+
+    header {
+        padding: 11px 4%;
+        /* width: 100%;
+    margin-right: 30px; */
+    }
+
+    #menu-icon {
+        display: initial;
+        color: var(--text-color);
+    }
+
+    header .navbar {
+        position: absolute;
+        top: -500px;
+        left: 0;
+        right: 0;
+        display: flex;
+        flex-direction: column;
+        background: var(--bg-color);
+        box-shadow: 0 4px 4px rgb(0 0 0 / 10%);
+        transition: 0.2s ease;
+        text-align: center;
+    }
+
+    .navbar.active {
+        top: 100%;
+    }
+
+    .navbar a {
+        padding: 1.5rem;
+        display: block;
+        background: var(--bg-color);
+    }
+
+    #darkmode {
+        position: absolute;
+        top: 1.4rem;
+        right: 2rem;
+    }
+
+    .scroll-down {
+        display: none;
+    }
+
+    #home {
+        grid-template-columns: repeat(1, 1fr);
+        text-align: center;
+    }
+
+    .home-text {
+        grid-column: 1/3;
+    }
+
+    .home-img1 {
+        /* order: initial; */
+        width: 100%;
+        margin: auto;
+    }
+
+    .home-img1 img {
+        /* order: initial; */
+        margin: auto;
+    }
+    
+
+    .about-container {
+        grid-template-columns: 1fr;
+    }
+
+    .home-img-main {
+        display: flex;
+        justify-content: center;
+    }
+
+    .skills-container {
+        grid-template-columns: 1fr;
+    }
+
+    .contact-form form {
+        width: 300px;
+    }
+
+    .contact-button {
+        margin-left: 25%;
+    }
+
+    #git-stat>div>img {
+        width: 90%;
+        background-color: black;
+    }
+}
+
+@media (max-width: 400px) {
+    :root {
+        --big-font: 1.7rem;
+        --medium-font: 1.1rem;
+    }
+
+    .footer-social {
+        margin-left: 55px;
+    }
+    *{
+        box-sizing: border-box;
+        margin: 0px;
+        padding: 0px;
+    }
+    header {
+        position: fixed;
+        width: 100%;
+        top: 0;
+        right: 0;
+        z-index: 1000;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background: var(--bg-color);
+        padding: 13px 10%;
+        transition: 0.2s;
+        box-shadow: -3px -3px 7px #ffffff73,
+            2px 2px 5px rgba(94, 104, 121, 0.288);
+    }
+
+    .home-text span {
+        font-size: 1rem;
+    }
+
+    .home-text h2 {
+        font-size: 0.9rem;
+        font-weight: 500;
+    }
+
+    .information .info-box span {
+        font-size: 1rem;
+    }
+
+    .contact-form form {
+        width: 300px;
+    }
+
+    .contact-button {
+        margin-left: 25%;
+    }
+
+}
+
+@media screen and (min-width: 350px) and (max-width: 499px) {
+    .react-activity-calendar {
+        width: 100%;
+        margin: 0px;
+        text-align: center;
+        
+        
+    }
+
+    .calendar div {
+        width: 90%;
+        margin: auto;
+        display: block;
+    }
+
+    #git-stat>div>img {
+        width: 80%;
+        background-color: black;
+    }
+    *{
+        box-sizing: border-box;
+        margin: 0px;
+        padding: 0px;
+    }
+    body{
+        width: auto;
+        box-sizing: border-box;
+        margin: 0px;
+        padding: 0px;
+    }
+    .footer-social {
+        margin-left: 0px;
+    }
+    .about__info{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        }
+}
+
+    </style>
+</head>
+<body>
+    
+</body>
+</html>

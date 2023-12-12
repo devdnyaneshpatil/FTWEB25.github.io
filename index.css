@@ -553,7 +553,7 @@ margin-top: 10px;
     section {
         padding: 40px 4%;
     }
-    .about__info{
+    .about__info{ 
         display: grid;
         grid-template-columns: repeat(2,1fr);
         }
@@ -566,7 +566,7 @@ margin-top: 10px;
     }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 869px) {
     :root {
         --big-font: 2.4rem;
         --medium-font: 1.2rem;
