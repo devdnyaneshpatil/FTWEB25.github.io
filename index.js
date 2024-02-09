@@ -14,10 +14,16 @@ window.onscroll = () => {
 };
 
 document.getElementById('resume-button-1').addEventListener("click", () => {
-  window.open("https://drive.google.com/file/d/1AhSS8JwlkxcRRzq7_Vwwnid5med0ZZD5/view?usp=drive_link", "_blank");
+  window.open(
+    "https://drive.google.com/file/d/1AhSS8JwlkxcRRzq7_Vwwnid5med0ZZD5/view?usp=drive_link",
+    "_blank"
+  );
 });
 
 document.getElementById('resume-button-2').addEventListener("click", () => {
-  window.open("https://drive.google.com/file/d/1AhSS8JwlkxcRRzq7_Vwwnid5med0ZZD5/view?usp=drive_link", "_blank");
+  window.open(
+    "https://drive.google.com/file/d/1AhSS8JwlkxcRRzq7_Vwwnid5med0ZZD5/view?usp=drive_link",
+    "_blank"
+  );
 });
 
